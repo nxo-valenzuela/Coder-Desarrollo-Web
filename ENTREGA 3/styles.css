@@ -1,0 +1,106 @@
+/* Variables */
+/* Reset and global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero .btn {
+  border-radius: 50px;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+}
+
+/* Gallery Section */
+#gallery {
+  background: #fff;
+  padding: 3rem 1rem;
+}
+#gallery h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+#gallery .hover-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+#gallery .hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+}
+#testimonials h2 {
+  margin-bottom: 2rem;
+}
+#testimonials blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #dd2a7b;
+  padding-left: 1rem;
+}
+
+/* Contact Form */
+#contact {
+  background: #fff;
+  padding: 3rem 1rem;
+}
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+#contact .form-control {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 0.8rem;
+}
+#contact .btn-primary {
+  background: #dd2a7b;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: background 0.3s;
+}
+#contact .btn-primary:hover {
+  background: #8134af;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
